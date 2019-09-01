@@ -1,0 +1,66 @@
+body {
+  background-image: url("wavy.png");
+  background-position: center;
+  background-size: 120%;
+}
+.lines {
+	font-size: 80pt;
+	color: #ebcbb2;
+
+}
+.text {
+  font-family: Arial;
+  font-size: 20px;
+  font-style: italic;
+  margin-left: 350pt;
+  margin-top: -200pt;
+  position:absolute;
+}
+
+.first{
+	margin-left: 100pt;
+	margin-top: -280pt;
+  position: absolute;
+  opacity: 0.7;
+  transition: .8s;
+  backface-visibility: hidden;
+}
+
+.second {
+  margin-top: -200pt;
+  opacity: 0.7;
+  transition: .8s;
+  margin-left: 280pt;
+  position: absolute;
+
+}
+.third {
+  margin-left: 610pt;
+  opacity: 0.7;
+  transition: .8s;
+  margin-top: -180pt;
+  position: absolute;
+
+}
+.fourth {
+  margin-left: 800pt;
+  opacity: 0.7;
+  transition: .8s;
+  margin-top: -400pt;
+  position: absolute;
+}
+
+.one img:hover {
+  opacity:1;
+}
+
+.two img:hover {
+  opacity:1;
+}
+
+.three img:hover {
+  opacity:1;
+}
+.four img:hover {
+  opacity:1;
+}
